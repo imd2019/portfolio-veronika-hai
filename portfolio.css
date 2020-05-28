@@ -1,5 +1,4 @@
 #hintergrund {
-  position: absolute;
   width: 100%;
   height: auto;
   z-index: 1;
@@ -9,4 +8,39 @@ body {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
+}
+.logo {
+  margin: 0px;
+  width: 7%;
+  height: auto;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 80px;
+  left: 200px;
+  background-color: aqua;
+  position: absolute;
+}
+.workbutton {
+  border: none;
+  background: none;
+}
+.mebutton {
+  border: none;
+  background: none;
+}
+.contactbutton {
+  border: none;
+  background: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-size: 40px;
 }
