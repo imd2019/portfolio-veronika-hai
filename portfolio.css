@@ -1,7 +1,6 @@
 #hintergrund {
   width: 100%;
   height: auto;
-  z-index: 1;
 }
 html,
 body {
@@ -21,10 +20,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  top: 80px;
-  left: 200px;
-  background-color: aqua;
+  top: 55px;
+  left: 180px;
+  background-color: #71b98a;
   position: absolute;
+  width: 550px;
+  border-radius: 20px;
 }
 .workbutton {
   border: none;
@@ -39,7 +40,7 @@ body {
   background: none;
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Helvetica";
   font-size: 40px;
