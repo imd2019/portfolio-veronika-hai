@@ -8,22 +8,15 @@ body {
   padding: 0px;
   overflow: hidden;
 }
-.logo {
-  margin: 0px;
-  width: 7%;
-  height: auto;
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   top: 55px;
   left: 180px;
-  background-color: #71b98a;
   position: absolute;
+  background-color: #71b98a;
   width: 550px;
   border-radius: 20px;
 }
