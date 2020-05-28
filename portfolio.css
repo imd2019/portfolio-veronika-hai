@@ -1,4 +1,12 @@
-.hintergrund {
+#hintergrund {
+  position: absolute;
   width: 100%;
   height: auto;
+  z-index: 1;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
